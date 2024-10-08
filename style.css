@@ -12,15 +12,29 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --primary-color: #e50914;
-  --primary-bg-color: #000000;
+  --primary-red: #e50914;
+  --primary-black: #000000;
 
-  --color-white: #ffffff;
+  /* typography  */
+  --text-lighest: #ffffff;
+  --text-dark-gray: #8c8c8c;
+  --text-gray: #757575;
+  --text-light-gray: #999999;
+
+  /* accent */
+  --accent-blue: #0071eb;
+  --accent-orange: #ffa00a;
+  --accent-green: #5fa53f;
+
+  /* background */
+  --bg-black: #000000;
+  --bg-gray: #222222;
+  --bg-light-gray: #303030;
 }
 
 body {
-  background-color: var(--primary-bg-color);
-  color: var(--color-white);
+  background-color: var(--primary-black);
+  color: var(--text-lighest);
 }
 
 h1 {
