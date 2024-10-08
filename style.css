@@ -11,6 +11,37 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #e50914;
+  --primary-bg-color: #000000;
+
+  --color-white: #ffffff;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--color-white);
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.1;
+  letter-spacing: -0.5%;
+}
+
+/* -------
+DESIGN SYSTEM
+
+-------
+*/
+
+.rect {
+  width: 100px;
+  height: 100px;
+}
+
+* {
 }
 
 /* 
