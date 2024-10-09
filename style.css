@@ -177,3 +177,31 @@ button {
   border-top-right-radius: var(--border-radius);
   padding: 0.25rem 0.5rem;
 }
+
+/* ------ 
+WHO'S WATHCING
+-------
+ */
+
+.profiles {
+  display: flex;
+  gap: 1rem;
+}
+.profile {
+  text-align: center;
+  flex-basis: 8rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.profile img {
+  background-color: var(--bg-light-gray);
+  border-radius: var(--border-radius);
+}
+
+.profile:last-of-type img {
+  margin: auto;
+  background-color: transparent;
+}
