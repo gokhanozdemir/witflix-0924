@@ -187,21 +187,21 @@ WHO'S WATHCING
   display: flex;
   gap: 1rem;
 }
+/* CSS NESTING */
 .profile {
   text-align: center;
   flex-basis: 8rem;
-
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-}
 
-.profile img {
-  background-color: var(--bg-light-gray);
-  border-radius: var(--border-radius);
-}
+  img {
+    background-color: var(--bg-light-gray);
+    border-radius: var(--border-radius);
+  }
 
-.profile:last-of-type img {
-  margin: auto;
-  background-color: transparent;
+  &:last-of-type img {
+    margin: auto;
+    background-color: transparent;
+  }
 }
