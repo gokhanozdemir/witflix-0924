@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
 
+* {
+  border: 1px solid lime;
+}
 :root {
   font-family: "Signika", sans-serif;
   font-optical-sizing: auto;
@@ -61,6 +64,18 @@ h2 {
 
 h3 {
   font-size: 1.6rem;
+}
+
+.text-field {
+  font-size: 1rem;
+}
+.lead {
+  font-size: 1rem;
+}
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5%;
 }
 
 /* -------
@@ -129,4 +144,34 @@ button {
 .outline-button:hover {
   color: var(--white);
   border: 1px solid var(--text-lightest);
+}
+
+.card {
+  background-color: var(--bg-light-gray);
+  min-width: 20rem;
+  aspect-ratio: 16/9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card img {
+  height: 2.5rem;
+}
+
+.card img:first-of-type {
+  padding: 0.2rem;
+}
+
+.card > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card > span {
+  background-color: var(--primary-red);
+  align-self: center;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  padding: 0.25rem 1rem;
 }
