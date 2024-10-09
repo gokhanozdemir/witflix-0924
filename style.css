@@ -40,7 +40,7 @@
   --bg-gray: #222222;
   --bg-light-gray: #303030;
 
-  --border-radius: 0.5rem;
+  --border-radius: 0.3rem;
 }
 
 body {
@@ -73,7 +73,7 @@ h3 {
   font-size: 1rem;
 }
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.5%;
 }
@@ -103,6 +103,7 @@ DESIGN SYSTEM
 
 .ds-element-container {
   display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
 }
 
@@ -170,8 +171,9 @@ button {
 
 .card > span {
   background-color: var(--primary-red);
+
   align-self: center;
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius);
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 0.5rem;
 }
