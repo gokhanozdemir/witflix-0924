@@ -237,6 +237,11 @@ WHO'S WATHCING
   }
 }
 
+.hero-box {
+  max-width: 500px;
+  margin: 5rem 0;
+}
+
 /*-----------------
 - UTILITY CLASSES 
 ------------*/
@@ -276,4 +281,8 @@ WHO'S WATHCING
 
 .gap-l {
   gap: var(--gap-l);
+}
+
+.body-padding-left {
+  padding-left: var(--padding-left);
 }
