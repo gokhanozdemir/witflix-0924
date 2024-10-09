@@ -41,6 +41,12 @@
   --bg-light-gray: #303030;
 
   --border-radius: 0.3rem;
+
+  --gap-s: 0.75rem;
+  --gap-m: 1.5rem;
+  --gap-l: 4rem;
+
+  --padding-left: 3rem;
 }
 
 body {
@@ -104,7 +110,7 @@ DESIGN SYSTEM
 .ds-element-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: var(--gap-m);
 }
 
 .primary-button,
@@ -191,20 +197,20 @@ WHO'S WATHCING
   min-height: 100vh;
   min-width: 100vw;
 
-  gap: 2rem;
+  gap: var(--gap-m);
 }
 
 .profiles {
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: var(--gap-m);
 }
 /* CSS NESTING */
 .profile {
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: var(--gap-s);
   flex-basis: 8rem;
 
   img {
@@ -218,4 +224,37 @@ WHO'S WATHCING
     margin: auto;
     background-color: transparent;
   }
+}
+
+/*-----------------
+- UTILITY CLASSES 
+------------*/
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.gap-s {
+  gap: var(--gap-s);
+}
+
+.gap-m {
+  gap: var(--gap-m);
+}
+
+.gap-l {
+  gap: var(--gap-l);
 }
