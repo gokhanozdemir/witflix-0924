@@ -83,7 +83,13 @@ h3 {
   font-weight: 600;
   letter-spacing: 0.5%;
 }
-
+a {
+  color: var(--text-light-gray);
+  transition: color 0.3s ease-in-out;
+}
+a:hover {
+  color: var(--text-lightest);
+}
 /* -------
 DESIGN SYSTEM
 -------
@@ -151,6 +157,11 @@ button {
 .outline-button:hover {
   color: var(--white);
   border: 1px solid var(--text-lightest);
+}
+
+.cards {
+  overflow-x: scroll;
+  /* hide scrollbar width değil height kullanarak */
 }
 
 .card {
@@ -236,6 +247,14 @@ WHO'S WATHCING
 
 .center {
   justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
   align-items: center;
 }
 
